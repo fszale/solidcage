@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 716px;
+  min-height: 745px;
 }
 
 .u-section-1 .u-shape-1 {
@@ -56,7 +56,7 @@
   width: 587px;
   height: 610px;
   object-position: 50% 50%;
-  margin: -639px 0 29px auto;
+  margin: -610px 0 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -66,6 +66,7 @@
     --animation-custom_in-translate_x: 300px;
     --animation-custom_in-scale: 1;
     --animation-custom_in-translate_y: 0px;
+    margin-top: 152px;
     margin-right: 100px;
   }
 
@@ -76,7 +77,6 @@
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
-    margin-top: 60px;
     margin-left: 100px;
     height: auto;
   }
@@ -95,7 +95,6 @@
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 0.3;
-    margin-top: -1105px;
   }
 }
 
@@ -103,14 +102,13 @@
   .u-section-1 .u-shape-1 {
     width: 720px;
     height: 376px;
-    margin-top: 55px;
+    margin-top: 587px;
     margin-right: 210px;
   }
 
   .u-section-1 .u-group-1 {
     width: 492px;
     min-height: 635px;
-    margin-top: -357px;
     margin-left: 18px;
   }
 
@@ -126,31 +124,25 @@
   .u-section-1 .u-image-1 {
     width: 250px;
     height: 268px;
-    margin-top: -485px;
     margin-right: -17px;
-    margin-bottom: 60px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 667px;
+    min-height: 696px;
   }
 
   .u-section-1 .u-shape-1 {
     width: 540px;
     height: 264px;
+    margin-top: 597px;
     margin-right: 300px;
   }
 
   .u-section-1 .u-group-1 {
     width: 418px;
-    margin-top: -14px;
     margin-left: 300px;
-  }
-
-  .u-section-1 .u-image-1 {
-    margin-top: -1006px;
   }
 }
 
@@ -162,13 +154,13 @@
   .u-section-1 .u-shape-1 {
     width: 340px;
     height: 222px;
+    margin-top: 933px;
     margin-right: auto;
   }
 
   .u-section-1 .u-group-1 {
     width: 340px;
     min-height: 712px;
-    margin-top: 24px;
     margin-left: auto;
   }
 
@@ -193,7 +185,6 @@
   }
 
   .u-section-1 .u-image-1 {
-    margin-top: -949px;
     margin-right: auto;
   }
 } .u-section-2 {
