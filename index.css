@@ -2437,11 +2437,6 @@
 }
 
 .u-section-10 .u-btn-3 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-section-10 .u-btn-4 {
   border-style: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -2456,7 +2451,7 @@
 .u-section-10 .u-video-1 {
   width: 528px;
   height: 301px;
-  margin: -487px 63px 0 auto;
+  margin: -487px 63px 186px auto;
 }
 
 .u-section-10 .embed-responsive-1 {
@@ -2522,7 +2517,7 @@
     margin-top: 9px;
   }
 
-  .u-section-10 .u-btn-4 {
+  .u-section-10 .u-btn-3 {
     margin-top: 22px;
   }
 
@@ -2598,7 +2593,7 @@
     margin-right: 30px;
   }
 
-  .u-section-10 .u-btn-4 {
+  .u-section-10 .u-btn-3 {
     margin-top: 35px;
     padding-left: 9px;
     padding-right: 9px;
