@@ -2757,6 +2757,11 @@
 }
 
 .u-section-13 .u-btn-3 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-13 .u-btn-4 {
   border-style: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -2837,7 +2842,7 @@
     margin-top: 9px;
   }
 
-  .u-section-13 .u-btn-3 {
+  .u-section-13 .u-btn-4 {
     margin-top: 22px;
   }
 
@@ -2913,7 +2918,7 @@
     margin-right: 30px;
   }
 
-  .u-section-13 .u-btn-3 {
+  .u-section-13 .u-btn-4 {
     margin-top: 35px;
     padding-left: 9px;
     padding-right: 9px;
