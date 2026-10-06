@@ -18,7 +18,8 @@
     "home": "https://www.solidcage.com/",
     "agents_txt": "https://www.solidcage.com/agents.txt",
     "agent_card": "https://www.solidcage.com/.well-known/agent-card.json",
-    "agent_json": "https://www.solidcage.com/.well-known/agent.json"
+    "agent_json": "https://www.solidcage.com/.well-known/agent.json",
+    "agent_card_root": "https://www.solidcage.com/agent-card.json"
   },
   "policies": {
     "remote_default": true,
