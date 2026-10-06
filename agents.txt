@@ -1,0 +1,30 @@
+# Solid Cage — agents.txt
+# Machine-readable hire / book path for Filip Szalewicz (HITL; no auto-contract)
+
+name: Solid Cage
+url: https://www.solidcage.com
+operator: Filip Szalewicz
+email: info@solidcage.com
+timezone: America/Detroit
+remote: default
+
+# Primary actions
+book: https://cal.com/filip-szalewicz-wl6x3a/30min
+email: mailto:info@solidcage.com
+
+# Structured companions
+agents.json: https://www.solidcage.com/agents.json
+llms.txt: https://www.solidcage.com/llms.txt
+openapi: https://www.solidcage.com/openapi.yaml
+for-agents: https://www.solidcage.com/for-agents.html
+agent-card: https://www.solidcage.com/.well-known/agent-card.json
+
+# Offers (USD list; custom scopes available)
+offer: Agentic Readiness Assessment | 30 days | 5000
+offer: Digital Twin Factory Design + Pilot | 60 days | 30000
+offer: Full Agentic OS Implementation | 12 months | 100000
+offer: Kickstart pilot | 1 month | 5000
+
+policy: human_in_the_loop=true
+policy: auto_contract=false
+policy: booking=calendar_request_pending_filip_confirm

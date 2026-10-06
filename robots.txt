@@ -6,3 +6,6 @@ Allow: /
 # https://www.solidcage.com/agents.json
 # https://www.solidcage.com/openapi.yaml
 # https://www.solidcage.com/for-agents.html
+# https://www.solidcage.com/agents.txt
+# https://www.solidcage.com/.well-known/agent-card.json
+

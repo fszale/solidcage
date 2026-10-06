@@ -2,7 +2,7 @@
   "schema_version": "solidcage.agents.v1",
   "name": "Solid Cage",
   "url": "https://www.solidcage.com",
-  "description": "Agentic operating systems for engineering organizations — digital twin factories, agent kernels, and operational intelligence loops. Operated by Filip Szalewicz.",
+  "description": "Agentic operating systems for engineering organizations \u2014 digital twin factories, agent kernels, and operational intelligence loops. Operated by Filip Szalewicz.",
   "operator": {
     "name": "Filip Szalewicz",
     "email": "info@solidcage.com",
@@ -15,7 +15,10 @@
     "llms_txt": "https://www.solidcage.com/llms.txt",
     "openapi": "https://www.solidcage.com/openapi.yaml",
     "human_landing": "https://www.solidcage.com/for-agents.html",
-    "home": "https://www.solidcage.com/"
+    "home": "https://www.solidcage.com/",
+    "agents_txt": "https://www.solidcage.com/agents.txt",
+    "agent_card": "https://www.solidcage.com/.well-known/agent-card.json",
+    "agent_json": "https://www.solidcage.com/.well-known/agent.json"
   },
   "policies": {
     "remote_default": true,
@@ -72,5 +75,5 @@
       "summary": "10 hours senior leadership, weekly review, tailored agentic OS roadmap. No lock-in."
     }
   ],
-  "ideal_customer": "Founders, CTOs, VP Engineering, and PE/ops leaders installing an agentic OS in an engineering organization — remote-first."
+  "ideal_customer": "Founders, CTOs, VP Engineering, and PE/ops leaders installing an agentic OS in an engineering organization \u2014 remote-first."
 }

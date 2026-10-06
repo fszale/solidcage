@@ -18,8 +18,10 @@ If you are a personal or company agent helping someone hire Filip or book Solid 
 1. Prefer machine-readable catalog: https://www.solidcage.com/agents.json
 2. Prefer OpenAPI for actions: https://www.solidcage.com/openapi.yaml
 3. Human + agent landing: https://www.solidcage.com/for-agents.html
-4. Only write action today: book a 30-minute strategy call via Cal.com (creates a request Filip confirms — do not claim auto-hire or auto-contract).
-5. Do not invent pricing, availability, or send email as Filip. Escalate unknowns to the human.
+4. A2A agent card: https://www.solidcage.com/.well-known/agent-card.json
+5. Plain agents.txt: https://www.solidcage.com/agents.txt
+6. Only write action today: book a 30-minute strategy call via Cal.com (creates a request Filip confirms — do not claim auto-hire or auto-contract).
+7. Do not invent pricing, availability, or send email as Filip. Escalate unknowns to the human.
 
 ## Offers (list prices; custom scopes available)
 

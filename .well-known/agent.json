@@ -1,0 +1,105 @@
+{
+  "name": "Solid Cage",
+  "description": "Agentic operating systems for engineering organizations \u2014 digital twin factories, agent kernels, and operational intelligence loops. Operated by Filip Szalewicz. Agents may discover offers and book an intro call; Filip confirms every engagement (no auto-contract).",
+  "url": "https://www.solidcage.com",
+  "provider": {
+    "organization": "Solid Cage",
+    "url": "https://www.solidcage.com",
+    "contactEmail": "info@solidcage.com"
+  },
+  "version": "1.0.0",
+  "documentationUrl": "https://www.solidcage.com/for-agents.html",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "book_strategy_call",
+      "name": "Book strategy call",
+      "description": "Book a free 30-minute strategy call via Cal.com. Creates a request Filip confirms.",
+      "tags": [
+        "hire",
+        "consulting",
+        "booking"
+      ],
+      "examples": [
+        "Book Filip for an agentic OS intro call",
+        "Schedule Solid Cage strategy call"
+      ],
+      "inputModes": [
+        "text"
+      ],
+      "outputModes": [
+        "text"
+      ]
+    },
+    {
+      "id": "agentic_readiness_assessment",
+      "name": "Agentic Readiness Assessment",
+      "description": "30-day / $5,000 \u2014 top AI use cases, readiness scorecard, 90-day roadmap.",
+      "tags": [
+        "consulting",
+        "assessment"
+      ],
+      "examples": [
+        "Run an agentic readiness assessment"
+      ]
+    },
+    {
+      "id": "twin_pilot",
+      "name": "Digital Twin Factory Design + Pilot",
+      "description": "60-day / $30,000 \u2014 architecture + one production twin with HITL and ROI telemetry.",
+      "tags": [
+        "consulting",
+        "digital-twin",
+        "pilot"
+      ]
+    },
+    {
+      "id": "full_agentic_os",
+      "name": "Full Agentic OS Implementation",
+      "description": "12-month / $100,000 \u2014 twin factory, agent kernel + governance, OI loops.",
+      "tags": [
+        "consulting",
+        "implementation"
+      ]
+    },
+    {
+      "id": "kickstart",
+      "name": "Kickstart pilot",
+      "description": "1-month / $5,000 \u2014 10 hours senior leadership + weekly review + roadmap.",
+      "tags": [
+        "consulting",
+        "pilot"
+      ]
+    }
+  ],
+  "additionalInterfaces": [
+    {
+      "url": "https://www.solidcage.com/agents.json",
+      "transport": "HTTP"
+    },
+    {
+      "url": "https://www.solidcage.com/llms.txt",
+      "transport": "HTTP"
+    },
+    {
+      "url": "https://www.solidcage.com/openapi.yaml",
+      "transport": "HTTP"
+    },
+    {
+      "url": "https://cal.com/filip-szalewicz-wl6x3a/30min",
+      "transport": "HTTP"
+    }
+  ],
+  "preferredTransport": "HTTP",
+  "supportsAuthenticatedExtendedCard": false
+}
