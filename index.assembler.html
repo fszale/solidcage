@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>Solid Cage</title>
+<script>
+(async () => {
+  const [a,b] = await Promise.all([
+    fetch('/index.part1.htmlfrag').then(r => r.text()),
+    fetch('/index.part2.htmlfrag').then(r => r.text()),
+  ]);
+  document.open();
+  document.write(a + b);
+  document.close();
+})();
+</script>
+</head><body><p>Loading Solid Cage…</p></body></html>
