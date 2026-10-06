@@ -1,0 +1,74 @@
+openapi: 3.0.3
+info:
+  title: Solid Cage — agent hire / book
+  description: |
+    Machine-readable actions for hiring Filip Szalewicz / Solid Cage.
+    Today the only automated write path is Cal.com booking (Filip confirms).
+    Personal Agent Protocol is not implemented yet; this OpenAPI is the interim contract.
+  version: 0.1.0
+  contact:
+    name: Filip Szalewicz
+    email: info@solidcage.com
+    url: https://www.solidcage.com
+servers:
+  - url: https://www.solidcage.com
+paths:
+  /agents.json:
+    get:
+      operationId: getAgentCatalog
+      summary: Agent discovery catalog (offers, policies, actions)
+      responses:
+        '200':
+          description: Solid Cage agent catalog
+          content:
+            application/json:
+              schema:
+                type: object
+  /llms.txt:
+    get:
+      operationId: getLlmsTxt
+      summary: Natural-language site guide for LLMs/agents
+      responses:
+        '200':
+          description: Plain-text agent guide
+          content:
+            text/plain:
+              schema:
+                type: string
+  /for-agents.html:
+    get:
+      operationId: getAgentLanding
+      summary: Human + agent landing page for hire/book
+      responses:
+        '200':
+          description: HTML landing
+  /book:
+    get:
+      operationId: bookStrategyCall
+      summary: Redirect agents/humans to Cal.com 30-min strategy call
+      description: |
+        Prefer linking clients to https://cal.com/filip-szalewicz-wl6x3a/30min.
+        This path is a convenience redirect. Booking requires Filip confirmation.
+      responses:
+        '302':
+          description: Redirect to Cal.com
+          headers:
+            Location:
+              schema:
+                type: string
+                example: https://cal.com/filip-szalewicz-wl6x3a/30min
+components:
+  schemas:
+    Offer:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        duration:
+          type: string
+        price_usd:
+          type: number
+        summary:
+          type: string

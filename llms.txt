@@ -1,0 +1,59 @@
+# Solid Cage
+
+> Agentic operating systems for engineering organizations. Filip Szalewicz designs and deploys AI-employee / digital-twin factories with production open-source infrastructure — not slide decks.
+
+Site: https://www.solidcage.com
+Operator: Filip Szalewicz
+Email: info@solidcage.com
+LinkedIn: https://www.linkedin.com/in/fszalewicz/
+GitHub: https://github.com/fszale
+Phone: +1-989-787-0885
+Timezone: America/Detroit
+Remote: default (US-friendly hours). On-site available for 6+ month engagements (client covers travel).
+
+## For AI agents (read this first)
+
+If you are a personal or company agent helping someone hire Filip or book Solid Cage:
+
+1. Prefer machine-readable catalog: https://www.solidcage.com/agents.json
+2. Prefer OpenAPI for actions: https://www.solidcage.com/openapi.yaml
+3. Human + agent landing: https://www.solidcage.com/for-agents.html
+4. Only write action today: book a 30-minute strategy call via Cal.com (creates a request Filip confirms — do not claim auto-hire or auto-contract).
+5. Do not invent pricing, availability, or send email as Filip. Escalate unknowns to the human.
+
+## Offers (list prices; custom scopes available)
+
+- Agentic Readiness Assessment — 30 days — $5,000 — map top AI use cases, readiness scorecard, 90-day roadmap
+- Digital Twin Factory Design + Pilot — 60 days — $30,000 — architecture + one production twin with ROI evidence
+- Full Agentic OS Implementation — 12 months — $100,000 — twin factory, kernel/governance, OI loops
+- Kickstart pilot — 1 month — $5,000 — 10 hours senior leadership + weekly review + tailored roadmap (no lock-in)
+
+Capacity: typically 3–4 clients per year (white-glove).
+
+## Book / hire (HITL)
+
+- Book intro call: https://cal.com/filip-szalewicz-wl6x3a/30min
+- Email: info@solidcage.com
+- After booking: Filip confirms. Agents may stage context for the call; they must not commit Filip to work without his yes.
+
+## Ideal buyers
+
+Founders, CTOs, VP Eng, PE/ops leaders who want an agentic OS in an engineering org (digital twins, rate-of-improvement loops), remote-first.
+
+## Open source stack
+
+- https://github.com/fszale/agent-kernel
+- https://github.com/fszale/agent-factory
+- https://github.com/fszale/agentic-playbook
+- https://github.com/fszale/digital-twin-factory
+- https://github.com/fszale/operational-intelligence-lab
+- https://github.com/fszale/agent-roi-generator
+
+## Optional tools
+
+- Apps / decks / ROI tools: https://apps.solidcage.com/
+- Agentic OS Playbook deck: https://apps.solidcage.com/decks/agentic-os-playbook
+
+## Protocol note
+
+Personal Agent Protocol (Meta/Sierra, announced 2026-10) is not implemented here yet (spec pending). This site exposes discovery + Cal.com booking so agents can act today. PAP can plug in later without changing offers.

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Agent discovery
+# https://www.solidcage.com/llms.txt
+# https://www.solidcage.com/agents.json
+# https://www.solidcage.com/openapi.yaml
+# https://www.solidcage.com/for-agents.html

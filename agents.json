@@ -1,0 +1,76 @@
+{
+  "schema_version": "solidcage.agents.v1",
+  "name": "Solid Cage",
+  "url": "https://www.solidcage.com",
+  "description": "Agentic operating systems for engineering organizations — digital twin factories, agent kernels, and operational intelligence loops. Operated by Filip Szalewicz.",
+  "operator": {
+    "name": "Filip Szalewicz",
+    "email": "info@solidcage.com",
+    "linkedin": "https://www.linkedin.com/in/fszalewicz/",
+    "github": "https://github.com/fszale",
+    "phone": "+1-989-787-0885",
+    "timezone": "America/Detroit"
+  },
+  "discovery": {
+    "llms_txt": "https://www.solidcage.com/llms.txt",
+    "openapi": "https://www.solidcage.com/openapi.yaml",
+    "human_landing": "https://www.solidcage.com/for-agents.html",
+    "home": "https://www.solidcage.com/"
+  },
+  "policies": {
+    "remote_default": true,
+    "human_in_the_loop": true,
+    "auto_contract": false,
+    "auto_send_as_filip": false,
+    "booking_creates": "calendar_request_pending_filip_confirm",
+    "pap_status": "watching_not_implemented_spec_pending"
+  },
+  "actions": [
+    {
+      "id": "book_strategy_call",
+      "title": "Book a free 30-minute strategy call",
+      "method": "external_url",
+      "url": "https://cal.com/filip-szalewicz-wl6x3a/30min",
+      "requires_human_confirm": true,
+      "notes": "Only write path today. Creates a Cal.com booking request Filip confirms."
+    },
+    {
+      "id": "email_intro",
+      "title": "Email Solid Cage",
+      "method": "mailto",
+      "url": "mailto:info@solidcage.com",
+      "requires_human_confirm": true
+    }
+  ],
+  "offers": [
+    {
+      "id": "readiness_assessment",
+      "name": "Agentic Readiness Assessment",
+      "duration": "30 days",
+      "price_usd": 5000,
+      "summary": "Top AI use cases scored, 6-dimension readiness scorecard, first twin workflows, 90-day roadmap."
+    },
+    {
+      "id": "twin_pilot",
+      "name": "Digital Twin Factory Design + Pilot",
+      "duration": "60 days",
+      "price_usd": 30000,
+      "summary": "Agentic OS architecture, one production twin with HITL, ROI telemetry, champions trained."
+    },
+    {
+      "id": "full_agentic_os",
+      "name": "Full Agentic OS Implementation",
+      "duration": "12 months",
+      "price_usd": 100000,
+      "summary": "Twin factory, agent kernel + governance, OI loops, quarterly exec reviews; optional on-site."
+    },
+    {
+      "id": "kickstart",
+      "name": "Kickstart pilot",
+      "duration": "1 month",
+      "price_usd": 5000,
+      "summary": "10 hours senior leadership, weekly review, tailored agentic OS roadmap. No lock-in."
+    }
+  ],
+  "ideal_customer": "Founders, CTOs, VP Engineering, and PE/ops leaders installing an agentic OS in an engineering organization — remote-first."
+}

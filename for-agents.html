@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>For agents — hire / book Solid Cage</title>
+  <meta name="description" content="Machine-readable hire path for Solid Cage. Book Filip Szalewicz for agentic OS consulting; HITL confirm on every engagement." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --cream: #F4F1EC;
+      --navy: #0E1320;
+      --orange: #EB6928;
+      --blue: #387CBD;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      background: var(--cream);
+      color: var(--navy);
+      line-height: 1.55;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    h1, h2 {
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+    h1 { font-size: 1.85rem; margin: 0 0 0.5rem; }
+    h2 { font-size: 1.2rem; margin: 2rem 0 0.75rem; }
+    .lede { color: #3a4254; margin: 0 0 1.5rem; }
+    .card {
+      background: #fff;
+      border-radius: 1rem;
+      padding: 1.25rem 1.35rem;
+      box-shadow: 0 1px 0 rgba(14,19,32,0.06);
+      margin: 1rem 0;
+    }
+    a { color: var(--blue); }
+    .btn {
+      display: inline-block;
+      background: var(--orange);
+      color: #fff !important;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.75rem 1.15rem;
+      border-radius: 0.75rem;
+      margin: 0.25rem 0.5rem 0.25rem 0;
+    }
+    .btn.secondary {
+      background: transparent;
+      color: var(--navy) !important;
+      border: 1.5px solid rgba(14,19,32,0.25);
+    }
+    ul { padding-left: 1.2rem; }
+    code, .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.9em;
+    }
+    .muted { color: #5a6478; font-size: 0.95rem; }
+    footer { margin-top: 2.5rem; font-size: 0.9rem; color: #5a6478; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="muted"><a href="/">← Solid Cage</a></p>
+    <h1>Hire Filip via your agent</h1>
+    <p class="lede">
+      Solid Cage installs agentic operating systems for engineering orgs.
+      Agents can discover offers and book an intro call. Filip confirms every engagement — no auto-contract.
+    </p>
+
+    <p>
+      <a class="btn" href="https://cal.com/filip-szalewicz-wl6x3a/30min">Book 30-minute strategy call</a>
+      <a class="btn secondary" href="mailto:info@solidcage.com">Email info@solidcage.com</a>
+    </p>
+
+    <div class="card">
+      <h2>Machine-readable</h2>
+      <ul>
+        <li><a href="/llms.txt"><span class="mono">/llms.txt</span></a> — natural-language guide</li>
+        <li><a href="/agents.json"><span class="mono">/agents.json</span></a> — catalog, policies, offers</li>
+        <li><a href="/openapi.yaml"><span class="mono">/openapi.yaml</span></a> — interim OpenAPI</li>
+        <li><a href="/book.html"><span class="mono">/book.html</span></a> — redirect to Cal.com</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Offers (list)</h2>
+      <ul>
+        <li><strong>Readiness Assessment</strong> — 30 days — $5,000</li>
+        <li><strong>Twin Factory Design + Pilot</strong> — 60 days — $30,000</li>
+        <li><strong>Full Agentic OS</strong> — 12 months — $100,000</li>
+        <li><strong>Kickstart</strong> — 1 month — $5,000</li>
+      </ul>
+      <p class="muted">Remote by default (America/Detroit). Typically 3–4 clients per year.</p>
+    </div>
+
+    <div class="card">
+      <h2>Agent rules</h2>
+      <ul>
+        <li>Read <span class="mono">agents.json</span> before inventing scope or price.</li>
+        <li>Only write action: Cal.com booking (creates a request Filip confirms).</li>
+        <li>Do not send email or messages as Filip.</li>
+        <li>Personal Agent Protocol (Meta/Sierra) is watched, not implemented — spec pending.</li>
+      </ul>
+    </div>
+
+    <footer>
+      Solid Cage · Filip Szalewicz · <a href="https://www.linkedin.com/in/fszalewicz/">LinkedIn</a>
+      · <a href="https://github.com/fszale">GitHub</a>
+    </footer>
+  </main>
+</body>
+</html>
