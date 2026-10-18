@@ -2,7 +2,7 @@
   "schema_version": "solidcage.agents.v1",
   "name": "Solid Cage",
   "url": "https://www.solidcage.com",
-  "description": "Agentic operating systems for engineering organizations \u2014 digital twin factories, agent kernels, and operational intelligence loops. Operated by Filip Szalewicz.",
+  "description": "Filip Szalewicz builds AI products and agentic operating systems for engineering organizations: digital twin factories, agent kernels, and operational intelligence loops.",
   "operator": {
     "name": "Filip Szalewicz",
     "email": "info@solidcage.com",

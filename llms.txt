@@ -1,6 +1,6 @@
 # Solid Cage
 
-> Agentic operating systems for engineering organizations. Filip Szalewicz designs and deploys AI-employee / digital-twin factories with production open-source infrastructure — not slide decks.
+> Filip Szalewicz is a builder with several AI products in the marketplace. He also builds agentic operating systems for engineering organizations: AI-employee and digital-twin factories on production open-source infrastructure, not slide decks.
 
 Site: https://www.solidcage.com
 Operator: Filip Szalewicz
