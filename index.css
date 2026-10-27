@@ -4990,3 +4990,28 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     margin: 92px 0 -94px;
   }
 }
+
+/* Grok Bot templates reuse u-section-13/14, whose sheet heights and
+   margins are tuned to the Open Source block. Override only these ids. */
+#grok-bot-templates-title .u-text-1 {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  align-self: stretch;
+  white-space: normal;
+}
+
+#grok-bot-templates .u-sheet-1 {
+  min-height: 0;
+}
+
+#grok-bot-templates .u-text-1 {
+  margin: 32px 30px 48px;
+}
+
+@media (max-width: 767px) {
+  #grok-bot-templates .u-text-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
