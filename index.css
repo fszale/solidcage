@@ -4995,7 +4995,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
    zeroes that padding below 1200px, so size is set here. The booking
    banner reuses u-section-11 unchanged. */
 #grok-bot-templates-title .u-text-1 {
-  margin: 48px 30px 0;
+  margin: 64px 30px 0;
 }
 
 #grok-bot-templates-title .u-text-2 {
@@ -5039,7 +5039,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 #grok-bot-templates .grok-bot-copy {
-  margin: 8px 30px 40px;
+  margin: 8px 30px 48px;
   text-align: left;
 }
 
